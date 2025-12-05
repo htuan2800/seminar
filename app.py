@@ -65,7 +65,7 @@ def analyze_sentiment(classifier, text):
     label = result['label']
     score = result['score']
     
-    print(f"Nhân: {label}, Xác sự: {score}")
+    print(f"Nhân: {label}, Xác suất: {score}")
     
     # Nếu xác suất < 0.5, trả về NEUTRAL
     if score < 0.5:
